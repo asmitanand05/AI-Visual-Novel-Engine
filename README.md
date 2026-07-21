@@ -4,6 +4,13 @@
 
 An immersive, multi-modal "Choose Your Own Adventure" engine powered by Generative AI. This application orchestrates a stateful narrative where every decision you make generates a new chapter complete with AI-written text, custom illustrations, and spoken narration.
 
+## Preview Video
+
+
+https://github.com/user-attachments/assets/de213bf4-b7d0-41b8-8114-954b60549ef4
+
+
+
 ## ✨ Features
 
 *   **Multi-Modal Storytelling:** Experience the story through three distinct mediums simultaneously:
