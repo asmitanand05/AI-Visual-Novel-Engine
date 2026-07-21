@@ -37,7 +37,8 @@ An immersive, multi-modal "Choose Your Own Adventure" engine powered by Generati
 
 Ensure you have Python 3.9+ installed on your machine. 
 
-🧠 How It Works (Under the Hood)
+🧠 How It Works (Under the Hood):
+
 The engine is divided into four main operational phases:
 
 Phase 1: Configuration & Session State
@@ -65,12 +66,14 @@ Audio: The story_text is passed to gTTS, which synthesizes human speech and save
 Phase 4: Dynamic UI Rendering
 Streamlit builds the UI dynamically based on the length of the history array. Older turns are rendered for context, while the latest turn features the interactive choice buttons. Clicking a choice updates the pending_action state and triggers a rerun to start Phase 2 again.
 
-⚠️ Limitations & Troubleshooting
+⚠️ Limitations & Troubleshooting:
+
 Image Generation Timeouts: Pollinations AI can sometimes experience heavy load. The app has a built-in timeout of 25 seconds and fallback prompts. If an image fails, the game will notify you and continue with text only.
 
 JSON Parsing Errors: If the AI model completely ignores the structural prompt (rare with gemini-1.5-flash or gemini-2.5-flash), the application catches the error, displays a toast notification, and allows you to retry the turn.
 
-🎓 Acknowledgments
+🎓 Acknowledgments:
+
 Developed as the Capstone Mini-Project for the MirAI School of Technology — AI Builder Track.
 
 ### 1. Clone & Setup
